@@ -21,4 +21,6 @@ const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
 
-const selectDifferentDrivers = function (drivers, funone);
+const selectDifferentDrivers = function (drivers, selection){
+  return selection(drivers);
+};
